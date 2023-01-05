@@ -38,38 +38,13 @@
     background: linear-gradient(30deg ,var(--LowColor) 20%, var(--HighColor));
 }
 
-.input{
-    position: relative;
-    height: 40px;
-    width: 90%;
-    font-size: 1rem;
-    margin: 10px auto;
-    border: transparent;
-    border-radius: 10px;
-    padding: 0.5rem;
-    outline: none;
-}
-
-.input:focus{
-    border: var(--HighColor) solid 2px;
-}
-
 .label_input{
   margin-left: 6%;
 }
 
-.button{
-    height: 50px;
-    width: 95%;
-    margin: 10px 8%;
-    background-color: var(--color);
-    background-image: linear-gradient(to right ,var(--LowColor) 20%, var(--HighColor));
-    color: white;
-    font-weight: bold;
-    font-size: 1.5rem;
-    border: transparent;
-    border-radius: 100rem;
-    margin: 0 auto;
-    margin-top: 0.5rem;
+.link{
+    margin-top: 1rem;
+    text-decoration: none;
+    color: var(--HighColor);
 }
 
