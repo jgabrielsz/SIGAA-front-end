@@ -5,7 +5,7 @@ function Home(){
     return (
         <div id='home'>
             <Head/>
-            <h2>Hello User</h2>
+            <h2>Hello User!</h2>
             <Grid />
         </div>
     )

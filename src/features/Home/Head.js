@@ -3,9 +3,9 @@ import './home.css'
 function Head(){
     return(
         <div className="head">
-            <div className='box1'></div>
+            <div className='menu'></div>
             <span>Welcome</span>
-            <div className='box1'></div>
+            <img src="./me.jpg"></img>
         </div>
     )
 }

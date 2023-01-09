@@ -6,6 +6,7 @@ function Grid(){
             <div className='box' >Minhas Turmas</div>
             <div className='box' >Documentos Baixados</div>
             <div className='box' >Minhas Notas</div>
+            <div className='box' >Atividades</div>
         </div>
     )
 }
