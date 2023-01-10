@@ -4,7 +4,7 @@ import Input from '../../components/input/Input'
 
 
 function Auth() {
-
+ 
     return (
         <form action="" className="login">
             <span className="login_title">Login</span>
