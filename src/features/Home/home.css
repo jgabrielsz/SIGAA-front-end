@@ -27,14 +27,6 @@
     border-radius: 50%;
 }
 
-#grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.3rem;
-    padding: 1rem;
-    max-width: 600px;
-    margin: 0 auto;
-}
 
 .box{
     aspect-ratio: 1/1;

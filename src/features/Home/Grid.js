@@ -1,13 +1,20 @@
 import './home.css'
+import Box from './Box'
 
 function Grid(){
     return (
-        <div id='grid'>
-            <div className='flex text-center items-center justify-center text-lg font-bold rounded-xlg bg-emerald-600 shadow-lg shadow-emerald-600/80 text-white' >Minhas Turmas</div>
-            <div className='box' >Documentos Baixados</div>
-            <div className='box' >Minhas Notas</div>
-            <div className='box' >Atividades</div>
+        <>
+        <div className='grid grid-cols-2 gap-4 max-w-screen-sm my-auto p-4'>
+            <Box>Atividades</Box>
+            <Box>Documentos Baixados</Box>
+            {/* <Box>Minhas Turmas</Box>
+            <Box>Minhas Notas</Box> */}
         </div>
+        <Box className="aspect-auto rounded-md py-2 mx-4 justify-start flex-col">
+            Atividade de Cálculo
+            Hoje as 23:59h
+        </Box>
+        </>
     )
 }
 
