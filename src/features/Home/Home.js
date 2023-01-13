@@ -3,7 +3,7 @@ import Grid from './Grid'
 
 function Home(){
     return (
-        <div id='home'>
+        <div id='home' className='bg-back'>
             <Head/>
             <Grid />
         </div>
