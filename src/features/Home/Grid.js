@@ -12,8 +12,8 @@ function Grid(){
         <Box className="aspect-auto rounded-xl my-5 justify-start bg-dark-error py-4">
             <img className='aspect-square rounded-full w-10 mx-2' src={prof}  alt='prof'/>
             <div className='bg-dark-error block'>
-                <h2 className='bg-dark-error text-dark-onsurface font-medium text-base'>Atividade de Cálculo</h2>
-                <h3 className='bg-dark-error text-dark-onsurface text-sm font-normal'>Hoje as 23:59h</h3>
+                <h2 className='text-dark-onsurface font-medium text-base'>Atividade de Cálculo</h2>
+                <h3 className=' text-dark-onsurface text-sm font-normal'>Hoje as 23:59h</h3>
             </div>
         </Box>
         </>

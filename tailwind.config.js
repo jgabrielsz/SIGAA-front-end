@@ -12,7 +12,8 @@ module.exports = {
         'dark-error': '#8C1D18',
         'dark-onsurface': '#E6E1E5',
         'dark-surface1': '#242329',
-        'dark-surface2': '#1C1B1F'
+        'dark-surface2': '#1C1B1F',
+        'dark-surface3': '#2A2831'
       },
       aspectRatio: {
         '4/3': '4 / 3.3'
